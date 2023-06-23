@@ -41,7 +41,7 @@ the extension in command-line mode.
 
 %prep
 %autosetup -N
-%patch 0 -p 1 -d web-eid-app/lib/libelectronic-id/lib/libpcsc-cpp/tests/lib/libpcsc-mock
+%patch0 -p 1 -d web-eid-app/lib/libelectronic-id/lib/libpcsc-cpp/tests/lib/libpcsc-mock
 
 %build
 pushd web-eid-app
