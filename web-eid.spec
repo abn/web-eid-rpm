@@ -61,9 +61,10 @@ pushd web-eid-app
 export QT_QPA_PLATFORM='offscreen' # needed for running headless tests
 %ctest
 
+desktop-file-validate %{_datadir}/applications/%{name}.desktop
+
 %post
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-desktop-file-validate %{_datadir}/applications/%{name}.desktop
 
 %postun
 if [ $1 -eq 0 ] ; then
