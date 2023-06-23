@@ -1,15 +1,15 @@
 %global _hardened_build 1
 %define debug_package %{nil}
 
-Name:     web-eid
-Version:  2.3.1
-Release:  3
-Summary:  Web eID browser extension helper application
-License:  MIT
-URL:      https://github.com/web-eid/web-eid-app
+Name:    web-eid
+Version: 2.3.1
+Release: 3
+Summary: Web eID browser extension helper application
+License: MIT
+URL:     https://github.com/web-eid/web-eid-app
 Source0: %{name}-%{version}.tar.gz
 Source1: 0001-pcsc-mock-include.patch
-Patch0: 0001-pcsc-mock-include.patch
+Patch0:  0001-pcsc-mock-include.patch
 
 BuildRequires: bash
 BuildRequires: git
