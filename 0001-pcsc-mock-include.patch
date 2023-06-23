@@ -1,0 +1,21 @@
+From 488cb42301a42d8ced964a0aaafe4be0d258126d Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Anti=20R=C3=A4is?= <antirais@gmail.com>
+Date: Mon, 5 Jun 2023 07:57:20 +0300
+Subject: [PATCH] fix #6  missing include <cstdint> in pcsc-mock.hpp (#7)
+
+---
+ include/pcsc-mock/pcsc-mock.hpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/include/pcsc-mock/pcsc-mock.hpp b/include/pcsc-mock/pcsc-mock.hpp
+index 16c700f..27ec0b9 100644
+--- a/include/pcsc-mock/pcsc-mock.hpp
++++ b/include/pcsc-mock/pcsc-mock.hpp
+@@ -27,6 +27,7 @@
+ #include <map>
+ #include <vector>
+ #include <stdexcept>
++#include <stdint.h>
+
+ #ifdef _WIN32
+ using MOCK_LONG = int32_t;

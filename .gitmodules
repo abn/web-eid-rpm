@@ -1,0 +1,3 @@
+[submodule "web-eid-app"]
+	path = web-eid-app
+	url = https://github.com/web-eid/web-eid-app.git
