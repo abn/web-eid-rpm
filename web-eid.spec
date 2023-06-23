@@ -11,6 +11,7 @@ Source0: %{name}-%{version}.tar.gz
 Patch0:  https://github.com/web-eid/libpcsc-mock/commit/488cb42301a42d8ced964a0aaafe4be0d258126d.patch
 
 BuildRequires: bash
+BuildRequires: desktop-file-utils
 BuildRequires: git
 BuildRequires: qt5-qtbase-devel
 BuildRequires: qt5-qtsvg-devel
