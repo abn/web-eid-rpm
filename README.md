@@ -1,4 +1,4 @@
-[![Copr Build Status](https://copr.fedorainfracloud.org/coprs/abn/web-eid/package/throttled/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/abn/web-eid/)
+[![Copr Build Status](https://copr.fedorainfracloud.org/coprs/abn/web-eid/package/web-eid/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/abn/web-eid/)
 
 # RPM Package: web-eid
 
