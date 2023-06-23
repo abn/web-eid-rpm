@@ -3,7 +3,7 @@
 
 Name:    web-eid
 Version: 2.3.1
-Release: 6
+Release: 7
 Summary: Web eID browser extension helper application
 License: MIT
 URL:     https://github.com/web-eid/web-eid-app
@@ -88,6 +88,9 @@ fi
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Fri Jun 23 2023 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.3.1-7
+- add desktop-file-utils to build requires (arun.neelicattu@gmail.com)
+
 * Fri Jun 23 2023 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.3.1-6
 - fix desktop file validation path (arun.neelicattu@gmail.com)
 
