@@ -8,8 +8,7 @@ Summary: Web eID browser extension helper application
 License: MIT
 URL:     https://github.com/web-eid/web-eid-app
 Source0: %{name}-%{version}.tar.gz
-Source1: 0001-pcsc-mock-include.patch
-Patch0:  0001-pcsc-mock-include.patch
+Patch0:  https://github.com/web-eid/libpcsc-mock/commit/488cb42301a42d8ced964a0aaafe4be0d258126d.patch
 
 BuildRequires: bash
 BuildRequires: git
