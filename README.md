@@ -12,5 +12,5 @@ You can use this package by enabling the copr repository at [abn/web-eid](https:
 
 ```sh
 dnf copr enable abn/web-end
-dnf copr install web-eid
+dnf install web-eid
 ```
