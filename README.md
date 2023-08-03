@@ -14,3 +14,6 @@ You can use this package by enabling the copr repository at [abn/web-eid](https:
 dnf copr enable abn/web-end
 dnf install web-eid
 ```
+
+### Firefox
+Once the native package is installed you should also install the [Web eID extension](https://addons.mozilla.org/en-US/firefox/addon/web-eid-webextension/).
