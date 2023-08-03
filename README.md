@@ -11,7 +11,7 @@ This repository holds the RPM package source for [web-eid-app](https://github.co
 You can use this package by enabling the copr repository at [abn/web-eid](https://copr.fedorainfracloud.org/coprs/abn/web-eid/) as described [here](https://fedorahosted.org/copr/wiki/HowToEnableRepo).
 
 ```sh
-dnf copr enable abn/web-end
+dnf copr enable abn/web-eid
 dnf install web-eid
 ```
 
