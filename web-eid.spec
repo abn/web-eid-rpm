@@ -3,7 +3,7 @@
 
 Name:    web-eid
 Version: 2.4.0
-Release: 0
+Release: 1
 Summary: Web eID browser extension helper application
 License: MIT
 URL:     https://github.com/web-eid/web-eid-app
@@ -86,6 +86,12 @@ fi
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Thu Sep 21 2023 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.4.0-1
+- update to v2.4.0 release (arun.neelicattu@gmail.com)
+- Fix another typo (me@treier.xyz)
+- readme: add firefox instruction for extension (arun.neelicattu@gmail.com)
+- Fix typo in install command (me@treier.xyz)
+
 * Sat Jun 24 2023 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.3.1-8
 - fix epel builds (arun.neelicattu@gmail.com)
 
