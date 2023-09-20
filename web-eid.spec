@@ -2,13 +2,12 @@
 %define debug_package %{nil}
 
 Name:    web-eid
-Version: 2.3.1
-Release: 8
+Version: 2.4.0
+Release: 0
 Summary: Web eID browser extension helper application
 License: MIT
 URL:     https://github.com/web-eid/web-eid-app
 Source0: %{name}-%{version}.tar.gz
-Patch0:  https://github.com/web-eid/libpcsc-mock/commit/488cb42301a42d8ced964a0aaafe4be0d258126d.patch
 
 BuildRequires: bash
 BuildRequires: desktop-file-utils
@@ -41,7 +40,6 @@ the extension in command-line mode.
 
 %prep
 %autosetup -N
-%patch0 -p 1 -d web-eid-app/lib/libelectronic-id/lib/libpcsc-cpp/tests/lib/libpcsc-mock
 
 %build
 pushd web-eid-app
