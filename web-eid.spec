@@ -2,8 +2,8 @@
 %define debug_package %{nil}
 
 Name:    web-eid
-Version: 2.4.0
-Release: 2
+Version: 2.5.0
+Release: 1
 Summary: Web eID browser extension helper application
 License: MIT
 URL:     https://github.com/web-eid/web-eid-app
@@ -85,6 +85,9 @@ fi
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Mon Jul 01 2024 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.5.0-1
+- update release to 2.5.0
+
 * Thu Sep 21 2023 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.4.0-2
 - remove mozilla/extensions from files (arun.neelicattu@gmail.com)
 
