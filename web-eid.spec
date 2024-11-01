@@ -2,7 +2,7 @@
 %define debug_package %{nil}
 
 Name:    web-eid
-Version: 2.5.0
+Version: 2.6.0
 Release: 1
 Summary: Web eID browser extension helper application
 License: MIT
@@ -85,6 +85,9 @@ fi
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Fri Nov 01 2024 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.6.0-1
+- Update web-eid-ap  to v2.6.0 (arun.neelicattu@gmail.com)
+
 * Mon Jul 01 2024 Arun Babu Neelicattu <arun.neelicattu@gmail.com> 2.5.0-1
 - update release to 2.5.0
 
