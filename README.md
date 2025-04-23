@@ -1,4 +1,5 @@
-[![Copr Build Status](https://copr.fedorainfracloud.org/coprs/abn/web-eid/package/web-eid/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/abn/web-eid/)
+> [!NOTE]
+> The package is now available in the official Fedora repositories [here](https://packages.fedoraproject.org/pkgs/web-eid/web-eid/).
 
 # RPM Package: web-eid
 
